@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ Accordion Card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+    <div class="card">
+        <img src="./images/illustration-box-desktop.svg" class="desktop-illustration-box">
+        <div class="illustration">
+            
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+                <img src="./images/illustration-woman-online-desktop.svg" class="desktop-illustration" alt="">
+                <img src="./images/illustration-woman-online-mobile.svg" class="mobile-illustration" alt="">
+            
+        </div>
+        <div class="faq-container">
+            <h1>FAQ</h1>
+            <div class="faq">
+                <div class="headlineContainer">
+                    <p class="questionHeadline">How many team members can I invite?</p>
+                    <img src="./images/icon-arrow-down.svg" class="faqArrow">
+                </div>
+                <p class="questionAnswer">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+            </div>
+            <div class="faq">
+                <div class="headlineContainer">
+                    <p class="questionHeadline">What is the maximum file upload size?</p>
+                    <img src="./images/icon-arrow-down.svg" class="faqArrow">
+                </div>
+                <p class="questionAnswer">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est</p>
+            </div>
+            <div class="faq">
+                <div class="headlineContainer">
+                    <p class="questionHeadline">How do I reset my password?</p>
+                    <img src="./images/icon-arrow-down.svg" class="faqArrow">
+                </div>
+                <p class="questionAnswer">abore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+            </div>
+            <div class="faq">
+                <div class="headlineContainer">
+                    <p class="questionHeadline">Can I cancel my subscription?</p>
+                    <img src="./images/icon-arrow-down.svg" class="faqArrow">
+                </div>
+                <p class="questionAnswer">Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="faq">
+                <div class="headlineContainer">
+                    <p class="questionHeadline">Do you provide additional support?</p>
+                    <img src="./images/icon-arrow-down.svg" class="faqArrow">
+                </div>
+                <p class="questionAnswer">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
